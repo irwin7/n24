@@ -234,9 +234,10 @@ a{
   content: "";
   display: inline-block;
   background-image: url('../img/icon-covid.svg');
+  background-repeat: no-repeat;
   width: 43px; 
   height: 45px;
-  background-repeat: no-repeat;
+  
 }
 .lng::before{
   content: "";
