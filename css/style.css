@@ -1,0 +1,253 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  font-family: 'Rubik', sans-serif;
+}
+.container {
+  width: 1140px;
+  margin: 0 auto;
+}
+.row {
+  display: flex;
+  flex-flow: row wrap;
+}
+ul{
+  list-style: none;
+}
+a{
+  text-decoration: none;
+}
+.logo{
+  margin-right: 23px;
+  padding: 37px 0 0 0;
+}
+.currency-info{
+  justify-content: center;
+  margin-right: 200px;
+  padding-top: 24px;
+}
+.currency-info-list{
+  padding: 0;
+  margin: 0;
+}
+.currency-list-item{
+  margin: 0;
+  padding: 0;
+  margin-right: 20px;
+  font-size: 16px;
+  line-height: 19px;
+  color: #7A7A7A;
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  text-align: center;
+}
+.nav-list-item{
+  padding: 0;
+  margin-right: 22px;
+}
+.nav-list{
+  padding: 0;
+}
+.padf{
+  padding-top: 20px;
+}
+.s-l-l-list-item{
+  
+  justify-content: center;
+}
+.langs{
+  border-radius: 18px;
+}
+.buttn{
+  display: flex;
+  flex-flow: row wrap;
+  text-align: center;
+}
+.buttn::before{
+  content: "";
+  display: inline-block;
+  background-image: url('../img/tg-logo.svg');
+  width: 20px;
+  height: 20px;
+  margin-right: 7px;
+}
+.slllil-span{
+  margin-bottom: 5px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  color: #535353;
+}
+.s-l-l-l-i-link-but{
+  margin-top: 13px;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 11px 12px 8px 17px;
+  justify-content: center;
+  background: linear-gradient(90deg, #1E96C8 15.07%, #37AEE2 85.96%);
+  border-radius: 5px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  color: #FFFFFF;
+}
+.srch{
+  margin-right: 20px;
+}
+.lng{
+  margin-right: 30px;
+}
+.n-l-i-link{
+  font-weight: 500;
+  font-size: 19px;
+  line-height: 23px;
+  color: #515151;
+}
+.virus-info{
+  margin: 0 auto;
+  width: 1140px;
+  height: 133px;
+  background: #F6F6F9;
+  border-radius: 5px;
+}
+.v-i-l-item-title{
+  margin-left: 20px;
+  height: 74px;
+  border-right: 2px solid #EB5569;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 30px 0 29px 25px;
+  align-items: center;
+}
+.virus-info-list{
+  padding: 0;
+}
+.virus-info-title{
+  width: 232px;
+  height: 50px;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  color: #000000;
+  margin: 12px 50px 12px 15px;
+}
+.virus-info-list-item-1{
+  display: flex;
+  flex-wrap: wrap;
+  margin: 37px 0px 40px 40px;
+  width: 260px;
+  border-right: 2px solid #F4CCD1;
+  align-items: center;
+} 
+.vili-title{
+  font-size: 18px;
+  line-height: 21px;
+  color: #DB0000;
+  margin: 5px 0;
+}
+.vili-span{
+  font-weight: 500;
+  font-size: 25px;
+  line-height: 30px;
+  color: #000000;
+}
+.vili-des{
+  margin-left: 17px;
+}
+.virus-info-list-item-2{
+  display: flex;
+  flex-wrap: wrap;
+  width: 220px;
+  margin: 37px 0px 40px 40px;
+  border-right: 2px solid #F4CCD1;
+  align-items: center;
+}
+.vili-title-2{
+  margin: 5px 0;
+  font-size: 18px;
+  line-height: 21px;
+  color: #05B135;
+}
+
+.virus-info-list-item-3{
+  display: flex;
+  flex-wrap: wrap;
+  margin: 37px 0px 40px 40px;
+  align-items: center;
+}
+.vili-title-3{
+  font-size: 18px;
+  line-height: 21px;
+  color: #000000;
+  margin : 5px 0;
+}
+.dol::before{
+  content: "";
+  display: inline-block;
+  background-image: url('../img/icon/bx-dollar.svg');
+  background-repeat: no-repeat;
+  width: 20px;
+  height: 30px;
+}
+.eur::before{
+  content: "";
+  display: inline-block;
+  background-image: url('../img/icon/bx-euro.svg');
+  width: 20px;
+  height: 30px;
+}
+.rub::before{
+  content: "";
+  display: inline-block;
+  background-image: url('../img/icon/bx-ruble.svg');
+  width: 20px;
+  height: 30px;
+}
+.virus-info-list-item-2::before{
+  content: "";
+  display: inline-block;
+  background-image: url('../img/icon-recovered.svg');
+  width: 43px; 
+  height: 45px;
+  background-repeat: no-repeat;
+}
+.virus-info-list-item-3::before{
+  content: "";
+  display: inline-block;
+  background-image: url('../img/icon-dead.svg');
+  width: 43px; 
+  height: 45px;
+  background-repeat: no-repeat;
+}
+.virus-info-list-item-1::before{
+  content: "";
+  display: inline-block;
+  background-image: url('../img/icon-infected.svg');
+  width: 43px; 
+  height: 45px;
+  background-repeat: no-repeat;
+}
+.v-i-l-item-title::before{
+  content: "";
+  display: inline-block;
+  background-image: url('../img/icon-covid.svg');
+  width: 43px; 
+  height: 45px;
+  background-repeat: no-repeat;
+}
+.lng::before{
+  content: "";
+  display: inline-block;
+  background-image: url('../img/ru-flag.svg');
+  background-repeat: no-repeat;
+  width: 20px; 
+  height: 20px;
+  border-radius: 50%;
+}
+.lng{
+  align-items: center;
+  height: 20px;
+}
